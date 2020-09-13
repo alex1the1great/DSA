@@ -1,0 +1,11 @@
+Linear Search Algorithm
+-> In linear search, we search an element in a given array or list by traversing the array or list from left to right, till the desired element is found.
+
+-> The time complexity of the linear search is O(n).
+
+# Implementation of the linear search.
+ 1. Traverse the array using a for loop.
+ 2. In every iteration, compare the target value with the current value of the array.
+    a. If the values match, return the current index of the array.
+    b. If the values do not match, move on to the next array element.
+ 3. If no match is found return -1.
